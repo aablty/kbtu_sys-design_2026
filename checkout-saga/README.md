@@ -23,6 +23,8 @@ Controller → Saga Orchestrator → Steps
 
 The SagaOrchestrator coordinates execution and handles rollback logic.
 
+![Architecture](./assets/architecture.png)
+
 ## Running the project
 
 Install dependencies:
