@@ -1,0 +1,20 @@
+{
+  "name": "raft-cluster",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "start:1": "node dist/main.js --id 1",
+    "start:2": "node dist/main.js --id 2",
+    "start:3": "node dist/main.js --id 3",
+    "start:4": "node dist/main.js --id 4",
+    "start:5": "node dist/main.js --id 5",
+    "start:all": "node scripts/start-all.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.17",
+    "typescript": "^5.8.3"
+  }
+}
